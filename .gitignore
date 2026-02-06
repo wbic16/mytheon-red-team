@@ -1,0 +1,20 @@
+# Mytheon Red Team - Git Ignore
+
+# Sensitive test results
+results/
+*.log
+
+# Secrets (never commit)
+*.key
+*.pem
+*.env
+secrets/
+credentials/
+
+# Exploits (ethical disclosure only - review before commit)
+exploits/*.private
+
+# Temporary files
+*.tmp
+*.swp
+*~
